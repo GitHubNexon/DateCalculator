@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/DateCalculator">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
